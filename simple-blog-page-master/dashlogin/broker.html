@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Broker Dashboard</title>
+    <link rel="stylesheet" href="broker-styles.css">
+    <link rel="stylesheet" href="broker-style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Welcome Dear Investor</h1>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">
+            &#9776; <!-- Hamburger menu icon -->
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                
+                <li><a href="#">Contact</a></li>
+                <li><a href="deposit.html">Deposit</a></li>
+                <li><a href="#" onclick="logout()">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="welcome-section">
+            <h2>Welcome to the Broker Dashboard</h2>
+            <p>Your one-stop solution for financial brokerage services.</p>
+        </section>
+        <section class="features">
+            <div class="feature">
+                <h3>Market Analysis</h3>
+                <p>Get the latest market insights and analysis to make informed decisions.</p>
+            </div>
+            <div class="feature">
+                <h3>Portfolio Management</h3>
+                <p>Manage your portfolio with our advanced tools and expert guidance.</p>
+            </div>
+            <div class="feature">
+                <h3>24/7 Support</h3>
+                <p>Our support team is available around the clock to assist you with your needs.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Broker. All rights reserved.</p>
+    </footer>
+    <script src="broker-script.js"></script>
+</body>
+</html>
